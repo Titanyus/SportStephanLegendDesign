@@ -1,0 +1,28 @@
+{
+    "version"           :   "2.17.1",
+    "license"           :   "AGPL-3.0",
+    "isClosedSource"    :   true,
+    "name"              :   "SportStephanLegendDesign",
+    "marketplaceName"   :   {"de":"SportStephanLegendDesign","en":"SportStephanLegendDesign"},
+    "pluginIcon"        :   "icon_plugin_xs.png",
+    "authorIcon"        :   "icon_author_xs.png",
+    "email"             :   "info@plentylions.de",
+    "description"       :   "A SportStephanLegendDesign theme for Legend.",
+    "shortDescription"  :   { "de": "Ein SportStephanLegendDesign-Theme für Legend.", "en": "A SportStephanLegendDesign theme for Legend." },
+    "namespace"         :   "SportStephanLegendDesign",
+    "author"            :   "Plenty Lions GmbH",
+    "keywords"          :   ["plentymarkets", "plugins", "layout", "theme", "ceres"],
+    "price"             :   0,
+    "categories"        :   [3518],
+    "type"              :   "theme",
+    "require"           :   ["Legend"],
+    "serviceProvider"   :   "SportStephanLegendDesign\\Providers\\SportStephanLegendDesignServiceProvider",
+    "dataProviders"     :
+    [
+        {
+            "key"           :"SportStephanLegendDesign\\Containers\\SportStephanLegendDesignContainer",
+            "name"          :"Stylesheet",
+            "description"   :"Add changes to the CSS file"
+        }
+    ]
+}
