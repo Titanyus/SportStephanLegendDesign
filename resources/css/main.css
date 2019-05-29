@@ -1,0 +1,114 @@
+/* HomePage */
+.widget-grid-1-1-1>.widget-inner .widget-proportional{
+  padding-bottom: 100%;
+}
+
+@media (min-width: 1200px) {
+  body, body>#vue-app, body>#vue-error, .wrapper-main #page-header, .wrapper-main .navbar, #mainTopMenuWrapper{
+    background-color: #fbba05;
+  }
+
+  .before-header > .container-max,
+  .wrapper-main .navbar>.nv-wrap > .container-max,
+  #mainTopMenuWrapper > .container-max,
+  .page-content.container-max{
+    background-color: #fff;
+    padding: 0 30px;
+  }
+
+  #page-header .navbar .container-max{
+    padding: 0 15px;
+  }
+
+  #titleBeforeBreadcrumbs {
+    margin-top: 0;
+    padding-top: 20px;
+    background-color: #fff;
+  }
+
+  .wrapper-main>nav.container-max, .wrapper-main .breadcrumbs{
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  /* Login */
+  .container-max.login{
+    margin-top: 2rem;
+    padding-top: 2rem;
+  }
+
+  /* Checkout */
+  .page-content.basket, .page-content.checkout, .page-content.contact, .page-content.myaccount{
+    margin-top: 0;
+    padding-top: 30px !important;
+  }
+
+  /* Header */
+  .top-bar .before-header{
+    border-bottom: 0;
+  }
+  .top-bar .before-header > .container-max{
+    border-bottom: 1px dotted #e9e9e9;
+  }
+
+  .wrapper-main .navbar {
+    padding-top: 0;
+  }
+  .wrapper-main .navbar>.nv-wrap{
+    padding-bottom: 0;
+    border-bottom: 0;
+  }
+  .wrapper-main .navbar>.nv-wrap > .container-max{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d0d0d0;
+  }
+
+  #mainTopMenuWrapper{
+    border-bottom: 0;
+  }
+  #mainTopMenuWrapper > .container-max{
+    border-bottom: 1px solid #d0d0d0;
+  }
+
+  /* Single */
+  .single > .mt-5{
+    margin-top: 0 !important;
+    padding-top: 3rem;
+  }
+  @media (min-width: 768px){
+    .single-rightside {
+      margin-top: 3rem;
+    }
+  }
+
+  /* Global */
+  #page-body > .container-max{
+    padding: 0 30px;
+    background-color: #fff;
+  }
+  .wrapper-main #page-body {
+    margin-top: 0;
+  }
+  #page-body > .container-max{
+    padding-top: 18px;
+  }
+}
+
+.single-rightside .amzPayButton.articleCheckout {
+    float: left !important;
+    margin-right: 0 !important;
+    margin-left: 15px !important;
+    text-align: left !important;
+    width: auto !important;
+}
+
+/* Erweiterung */
+
+@media (min-width: 768px) {
+
+ .navbar-brand img {
+  max-width:350px;
+ }
+
+}
